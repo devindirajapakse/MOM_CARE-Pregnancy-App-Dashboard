@@ -59,7 +59,7 @@ function Mothers() {
         console.log(mothers)
     }, [])
 
-    //Update Midwife
+    //Update Mother
     const updateMother = async (id) => {
         const docref = doc(db, 'mother', id)
         await updateDoc(docref, { mobile: newPhone })
@@ -69,7 +69,7 @@ function Mothers() {
 
     return (
         <div className="mom-container">
-            <h1>Mothers</h1>
+            <h1>List Of Mothers</h1>
 
             <Grid container spacing={2}>
                 <Grid item xs={6}>

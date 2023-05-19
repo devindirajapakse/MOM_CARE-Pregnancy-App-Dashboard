@@ -47,7 +47,7 @@ function Admin() {
 
     return (
         <div className="admin-containe">
-            <h1>TDR Mom Dashboard</h1>
+            <h1>Admin Dashboard</h1>
 
             <Grid container spacing={2}>
                 <Grid item xs={8}>
@@ -105,7 +105,7 @@ function Admin() {
                                 <CardActionArea>
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
-                                            Mothers
+                                        Mothers
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
                                             Add or Delete a mother to the system

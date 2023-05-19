@@ -76,7 +76,7 @@ function ResponsiveDrawer(props) {
                 <AppBar
                     position="fixed"
                     sx={{
-                        backgroundColor: '#9c27b0',
+                        backgroundColor: '#CAADEF',
                         width: { sm: `calc(100% - ${drawerWidth}px)` },
                         ml: { sm: `${drawerWidth}px` },
                     }}
@@ -92,7 +92,7 @@ function ResponsiveDrawer(props) {
                             <MenuIcon />
                         </IconButton>
                         <Typography variant="h6" noWrap component="div">
-                            MOMCARE Dashboard
+                            MOMCARE - Lifetime Of Love
                         </Typography>
                     </Toolbar>
                 </AppBar>

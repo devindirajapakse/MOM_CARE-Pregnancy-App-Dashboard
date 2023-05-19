@@ -72,7 +72,7 @@ function Midwives() {
 
     return (
         <div className="midwives-container">
-            <h1>Midwives</h1>
+            <h1>List Of Midwives</h1>
 
             <Grid container spacing={2}>
                 <Grid item xs={6}>

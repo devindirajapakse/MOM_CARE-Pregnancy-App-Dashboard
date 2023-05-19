@@ -35,9 +35,9 @@ function Login() {
         const password = "User,123"
 
         createUserWithEmailAndPassword(auth, email, password)
-        .then((cred) => {
-            console.log('user created successfully : ', cred.user)
-        })
+            .then((cred) => {
+                console.log('user created successfully : ', cred.user)
+            })
     }
 
 
